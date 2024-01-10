@@ -12,6 +12,7 @@ public class PatientComparator {
 			case "id": comparator = new PatientIdComparator() ;break;
 			case "name": comparator= new PatientNameComparator();break;
 			case "dob": comparator = new PatientDobComparator(); break;
+case "id": comparator = new PatientIdComparator() ;break;
 			case "phone": comparator = new PatientPhoneComparator();break;
 			default: comparator = new PatientIdComparator();
 		}
